@@ -29,7 +29,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'webmock/rspec'
+  gem 'webmock'
   gem 'vcr'
   gem 'jasminerice'
   gem 'capybara'
