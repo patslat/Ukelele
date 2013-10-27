@@ -39,6 +39,6 @@ RSpec.configure do |config|
 
   VCR.configure do |c|
     c.cassette_library_dir = 'spec/fixtures/twitter_cassettes'
-    c.stub_with :webmock
+    c.hook_into :webmock
   end
 end
