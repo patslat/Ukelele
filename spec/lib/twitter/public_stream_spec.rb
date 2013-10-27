@@ -2,6 +2,6 @@ require_relative '../../spec_helper'
 
 describe Twitter::PublicStream do
   it 'must work' do
-    'yay!'.must_be_instance_of String
+    expect('yay!'.class).to be String
   end
 end

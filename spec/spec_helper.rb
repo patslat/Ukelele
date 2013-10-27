@@ -37,7 +37,7 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 
-  VCR.config do |c|
+  VCR.configure do |c|
     c.cassette_library_dir = 'spec/fixtures/twitter_cassettes'
     c.stub_with :webmock
   end
