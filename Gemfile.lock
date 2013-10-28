@@ -73,6 +73,9 @@ GEM
       activesupport (>= 3.0.0)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     haml (4.0.3)
       tilt
     hike (1.2.3)
@@ -208,6 +211,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   em-synchrony
   factory_girl
+  figaro
   httparty
   jasminerice
   jquery-rails
